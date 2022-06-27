@@ -1,0 +1,49 @@
+header {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+
+    .blu-top {
+        width: 100%;
+        height: 30px;
+        background-color: #0282f9;
+    }
+
+    .wrapper-nav {
+        margin: 0 auto;
+        height: calc(100% - 30px);
+        width: 80%;
+        display: flex;
+        align-items: center;
+
+        .logo-dc-top {
+            height: 70%;
+        }
+        
+        .nav-menu {
+            width: 100%;
+
+
+            ul {
+                display: flex;
+                justify-content: space-around;
+                list-style: none;
+
+
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+
+
+    }
+
+
+
+
+}
